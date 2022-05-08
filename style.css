@@ -125,3 +125,20 @@ flex: 1;
     color: #0067b8;
     font-weight: bold;
 }
+* xbox */
+.xbox{
+    background: url("./images/xbox.png")
+    no-repeat center center/cover  ;
+    width: 100%;
+    height: 350px;
+    margin-bottom:2rem;
+}
+.xbox-section p{
+    width: 39%;
+    line-height: 1.6;
+    font-size: 1.2em;
+    padding:1em 0 ;
+}
+.xbox .xbox-section{
+    padding: 4em 0 0 3em;
+}
