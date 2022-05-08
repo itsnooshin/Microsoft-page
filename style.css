@@ -1,0 +1,60 @@
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    line-height: 1.5;
+   
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #262626;
+    text-decoration: none;
+}
+/* utility classes */
+.container{
+    max-width: 1100px;
+    margin: auto;
+   width: 90%; 
+}
+
+
+
+/* navigation bar */
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 2rem 0;
+    font-size: 1rem;
+}
+.main-nav ul{
+    display: flex;
+}
+.main-nav ul.main-menu{
+flex: 1;
+ margin-left: 2rem;
+
+}
+.main-nav ul li{
+    padding: 0 1em;
+}
+.main-nav ul li a:hover{
+   border-bottom:0.2em solid #000000;
+   padding-bottom: 0.5em;
+}
+
+.main-nav .logo{
+    width:11em;
+}
+
