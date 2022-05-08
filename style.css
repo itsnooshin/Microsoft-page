@@ -97,3 +97,31 @@ flex: 1;
 .showcase p{
     font-size: 1.2em;
 }
+/* home cards */
+.grid-item {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.grid-item img{
+    width: 100%;
+    margin-bottom: 0.9em;
+}
+.grid-item h3{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+.grid-item p{
+ line-height: 1.7;
+ font-size: 1.2em;
+ 
+}
+.btn-links{
+    font-size: 1.1em;
+    display: inline-block;
+    padding-top: 1em;
+    color: #0067b8;
+    font-weight: bold;
+}
