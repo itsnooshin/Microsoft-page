@@ -144,24 +144,24 @@ flex: 1;
 /* carbon */
 .carbon-showcase{
     background: url("./images/carbon.jpg") no-repeat center center/cover;
-    height: 300px;
+    height: 340px;
     width: 100%;
     margin-bottom: 3rem;
 }
 .carbon-showcase .content-box{
     color: #fff;
-    padding: 5em 0 0 3em;
+    padding: 6em 0 0 4em;
     width: 60%;
 }
+
+
 .content-box p{
-    margin: 1.3em 0;
+   margin: 1.5em 0 2em;
+    
 }
-.content-box h2{
-    font-size: 2em;
-}
-.content-box p{
-    font-size: 1.2em;
-    line-height: 1.4;
+.dark{
+    background-color: #f2f2f2;
+    color: #000000;
 }
 /* social media  */
 .social-media{
@@ -181,9 +181,120 @@ flex: 1;
     margin-right: 1rem;
 }
 /* links-inner */
+.links{
+    background-color: #f2f2f2;
+    color: #616161;
+    font-size: 1rem;
+    padding: 3.5rem 0;
+}
 .links-inner{
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    align-items: center;
-   
+    gap: 10px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2em;
+    align-items: flex-start;
+    justify-content: center;
 }
+.links li{
+    line-height: 2.8;
+}
+
+/* footer */
+.main-footer{
+    background-color: #f2f2f2;
+    padding: 2.5rem 0;
+    color: #616161;
+    font-size: 1rem;
+    
+}
+.footer-inner ul{
+    display: flex;
+    flex-wrap: wrap;
+  
+  
+}
+.footer-inner{
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2em ;
+    justify-content: space-between;
+}
+.footer-inner li a{
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+
+
+
+/* media queries */
+
+/* desktop */
+
+  
+/* tablet size */
+@media screen and (max-width:992px){
+
+    .grid-item{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+    }
+
+   .main-nav .main-menu{
+    display: none;
+} 
+.links-inner{
+    grid-template-columns: repeat(2,1fr);
+}
+
+}
+
+
+
+@media screen and (max-width:768px){
+.main-nav .main-menu{
+    display: none;
+}
+.grid-item{
+    
+    grid-template-columns: repeat(2,1fr);
+}
+.links-inner{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.xbox .xbox-section p{
+    display: none;
+}
+.xbox .xbox-section h2{
+    width: 30%;
+    margin-bottom: 1.5em;
+}
+.carbon-showcase .content-box{
+    width: 95%;
+}
+
+
+}
+
+/* mobile */
+@media screen and (max-width:560px){
+    .grid-item{
+    
+        grid-template-columns:1fr;
+    }
+    .links-inner{
+        grid-template-columns:1fr;
+    }
+    .links-inner ul{
+        margin-bottom: 2em;
+    }
+    
+
+}
+
+
