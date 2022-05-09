@@ -211,7 +211,7 @@ flex: 1;
 }
 .footer-inner ul{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   
   
 }
@@ -250,6 +250,26 @@ flex: 1;
 .links-inner{
     grid-template-columns: repeat(2,1fr);
 }
+.footer-inner ul{
+    display: flex;
+    flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  
+}
+.footer-inner ul li{
+   margin: 0.7em 0;
+}
+
+.footer-inner{
+    align-items: flex-start;
+    flex-direction: column;
+    padding:0 2em ;
+  
+}
+
+
 
 }
 
@@ -276,6 +296,24 @@ flex: 1;
 }
 .carbon-showcase .content-box{
     width: 95%;
+}
+.footer-inner ul{
+    display: flex;
+    flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  
+}
+.footer-inner ul li{
+   margin: 0.7em 0;
+}
+
+.footer-inner{
+    align-items: flex-start;
+    flex-direction: column;
+    padding:0 2em ;
+  
 }
 
 
